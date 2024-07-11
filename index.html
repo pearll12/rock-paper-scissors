@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="msg">Play your move</div>
+
+    <div class="container">
+      <div class="header"><h2>Rock Paper Scissors</h2></div>
+      <div class="icon">
+        <img id="paper" src="paper.png" />
+        <div class="under">Paper</div>
+      </div>
+      <div class="icon">
+        <img id="rock" src="rock.png" />
+        <div class="under">Rock</div>
+      </div>
+      <div class="icon">
+        <img id="scissors" src="scissors.png" />
+        <div class="under">Scissors</div>
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <div class="row">
+        <div class="col">
+          Your Score
+          <div class="score1">0</div>
+        </div>
+        <div class="col">
+          Computer's Score
+          <div class="score2">0</div>
+        </div>
+        <div><button class="reset">Reset</button></div>
+      </div>
+    </div>
+    <audio id="meow-sound" src="meow.mp3"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
